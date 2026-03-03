@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
     echo "Login successful!";
     // header("Location: dashboard.php");
 } else {
-    echo "Invalid password!";
+    echo "Invalid email!";
 }
 
 $conn->close();
