@@ -22,9 +22,9 @@ if ($result->num_rows > 0) {
     $_SESSION['user_id'] = $row['id'];
     echo "Login successful!";
     // header("Location: dashboard.php");
-} else {
-    echo "Invalid email!";
+} else { password!";
 }
+    echo "Invalid email or password";
 
 $conn->close();
 ?>
